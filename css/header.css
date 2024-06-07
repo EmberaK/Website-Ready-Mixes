@@ -1,0 +1,103 @@
+.header{
+    background-color: #FFFFFF;
+    padding: 30px 0;
+    box-shadow: 
+        0px 10px 60px 0px rgba(0, 0, 0, 0.05),
+        0px -5px 15px 0px rgba(255, 255, 255, 0.44);
+   
+}
+
+.header_up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+
+}
+
+.customer_connection_box{
+    display: flex;
+    align-items: center;
+    gap: 60px;;
+}
+
+.carbon_phone_box{
+    display: flex;
+    align-items: start;
+    gap: 9px;
+}
+
+.carbon_phone_link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+}
+
+.client_engagement{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.client_engagement_basket_image{
+    width: 30px;
+    height: 31px;
+}
+
+.site_navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_navigation{
+    display: flex;
+    gap: 40px;
+
+}
+
+.header_item{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+
+.arrow_down{
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.input_search{
+    padding: 17px 50px 17px 20px;
+    border: #BDBDBD solid 1px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    width: 345px;
+    height: 54px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;  /* чтобы не было повторений */
+    background-size: 30px;
+    background-position: bottom 7px right 20px;
+}
+
+.input_search::placeholder,
+.input_search{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #828282;
+    
+
+}
+
+.input_search:focus {
+    border: #BDBDBD solid 1px;
+    outline: none; /* Убираем стандартный контур фокуса, чтобы применился border */
+}
+
